@@ -21,6 +21,11 @@
 		D913F96F1EEE49910039506E /* NavStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913F96E1EEE49910039506E /* NavStackViewController.swift */; };
 		D913F9711EEE4A3A0039506E /* TabBarRootOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913F9701EEE4A3A0039506E /* TabBarRootOneViewController.swift */; };
 		D913F9731EEE4AB20039506E /* TabBarRootTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913F9721EEE4AB20039506E /* TabBarRootTwoViewController.swift */; };
+		D92ED2001EEED78400F248D8 /* IBNavRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ED1FF1EEED78400F248D8 /* IBNavRootViewController.swift */; };
+		D92ED2021EEED7B100F248D8 /* IBNavStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ED2011EEED7B100F248D8 /* IBNavStackViewController.swift */; };
+		D92ED2041EEED82D00F248D8 /* IBTabBarRootOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ED2031EEED82D00F248D8 /* IBTabBarRootOneViewController.swift */; };
+		D92ED2061EEED87700F248D8 /* IBTabBarRootTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ED2051EEED87700F248D8 /* IBTabBarRootTwoViewController.swift */; };
+		D92ED2081EEED8AB00F248D8 /* IBTabBarRootThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ED2071EEED8AB00F248D8 /* IBTabBarRootThreeViewController.swift */; };
 		D999F22C1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F22B1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift */; };
 		D999F22E1EEE565800AF1FAC /* IBAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F22D1EEE565700AF1FAC /* IBAppController.swift */; };
 		D999F2321EEE56B500AF1FAC /* IBFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */; };
@@ -44,6 +49,11 @@
 		D913F96E1EEE49910039506E /* NavStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavStackViewController.swift; sourceTree = "<group>"; };
 		D913F9701EEE4A3A0039506E /* TabBarRootOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarRootOneViewController.swift; path = ../TabBarRootOneViewController.swift; sourceTree = "<group>"; };
 		D913F9721EEE4AB20039506E /* TabBarRootTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRootTwoViewController.swift; sourceTree = "<group>"; };
+		D92ED1FF1EEED78400F248D8 /* IBNavRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBNavRootViewController.swift; sourceTree = "<group>"; };
+		D92ED2011EEED7B100F248D8 /* IBNavStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBNavStackViewController.swift; sourceTree = "<group>"; };
+		D92ED2031EEED82D00F248D8 /* IBTabBarRootOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBTabBarRootOneViewController.swift; sourceTree = "<group>"; };
+		D92ED2051EEED87700F248D8 /* IBTabBarRootTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBTabBarRootTwoViewController.swift; sourceTree = "<group>"; };
+		D92ED2071EEED8AB00F248D8 /* IBTabBarRootThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBTabBarRootThreeViewController.swift; sourceTree = "<group>"; };
 		D999F22B1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRootThreeViewController.swift; sourceTree = "<group>"; };
 		D999F22D1EEE565700AF1FAC /* IBAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBAppController.swift; sourceTree = "<group>"; };
 		D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBFromViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 				D999F22D1EEE565700AF1FAC /* IBAppController.swift */,
 				D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */,
 				D999F2331EEE56F000AF1FAC /* IBToViewController.swift */,
+				D92ED1FF1EEED78400F248D8 /* IBNavRootViewController.swift */,
+				D92ED2011EEED7B100F248D8 /* IBNavStackViewController.swift */,
+				D92ED2031EEED82D00F248D8 /* IBTabBarRootOneViewController.swift */,
+				D92ED2051EEED87700F248D8 /* IBTabBarRootTwoViewController.swift */,
+				D92ED2071EEED8AB00F248D8 /* IBTabBarRootThreeViewController.swift */,
 			);
 			path = TheFlips;
 			sourceTree = "<group>";
@@ -178,17 +193,22 @@
 				D913F9531EEE3B990039506E /* ViewController.swift in Sources */,
 				D913F9671EEE45CC0039506E /* AppController.swift in Sources */,
 				D913F96B1EEE49300039506E /* ToViewController.swift in Sources */,
+				D92ED2061EEED87700F248D8 /* IBTabBarRootTwoViewController.swift in Sources */,
 				D999F2321EEE56B500AF1FAC /* IBFromViewController.swift in Sources */,
 				D913F9631EEE45290039506E /* FTBExtensions.swift in Sources */,
 				D913F96F1EEE49910039506E /* NavStackViewController.swift in Sources */,
 				D999F22C1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift in Sources */,
 				D913F9511EEE3B990039506E /* AppDelegate.swift in Sources */,
+				D92ED2041EEED82D00F248D8 /* IBTabBarRootOneViewController.swift in Sources */,
 				D913F9731EEE4AB20039506E /* TabBarRootTwoViewController.swift in Sources */,
 				D913F9691EEE49210039506E /* FromViewController.swift in Sources */,
 				D913F96D1EEE49810039506E /* NavRootViewController.swift in Sources */,
+				D92ED2001EEED78400F248D8 /* IBNavRootViewController.swift in Sources */,
+				D92ED2081EEED8AB00F248D8 /* IBTabBarRootThreeViewController.swift in Sources */,
 				D913F9651EEE45420039506E /* FTBAnimationController.swift in Sources */,
 				D999F2341EEE56F000AF1FAC /* IBToViewController.swift in Sources */,
 				D913F9711EEE4A3A0039506E /* TabBarRootOneViewController.swift in Sources */,
+				D92ED2021EEED7B100F248D8 /* IBNavStackViewController.swift in Sources */,
 				D999F22E1EEE565800AF1FAC /* IBAppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
