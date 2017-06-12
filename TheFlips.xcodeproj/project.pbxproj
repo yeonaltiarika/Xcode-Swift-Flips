@@ -22,6 +22,9 @@
 		D913F9711EEE4A3A0039506E /* TabBarRootOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913F9701EEE4A3A0039506E /* TabBarRootOneViewController.swift */; };
 		D913F9731EEE4AB20039506E /* TabBarRootTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913F9721EEE4AB20039506E /* TabBarRootTwoViewController.swift */; };
 		D999F22C1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F22B1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift */; };
+		D999F22E1EEE565800AF1FAC /* IBAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F22D1EEE565700AF1FAC /* IBAppController.swift */; };
+		D999F2321EEE56B500AF1FAC /* IBFromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */; };
+		D999F2341EEE56F000AF1FAC /* IBToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D999F2331EEE56F000AF1FAC /* IBToViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		D913F9701EEE4A3A0039506E /* TabBarRootOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarRootOneViewController.swift; path = ../TabBarRootOneViewController.swift; sourceTree = "<group>"; };
 		D913F9721EEE4AB20039506E /* TabBarRootTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRootTwoViewController.swift; sourceTree = "<group>"; };
 		D999F22B1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRootThreeViewController.swift; sourceTree = "<group>"; };
+		D999F22D1EEE565700AF1FAC /* IBAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBAppController.swift; sourceTree = "<group>"; };
+		D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBFromViewController.swift; sourceTree = "<group>"; };
+		D999F2331EEE56F000AF1FAC /* IBToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBToViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 				D913F96A1EEE49300039506E /* ToViewController.swift */,
 				D913F9521EEE3B990039506E /* ViewController.swift */,
 				D999F22B1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift */,
+				D999F22D1EEE565700AF1FAC /* IBAppController.swift */,
+				D999F2311EEE56B500AF1FAC /* IBFromViewController.swift */,
+				D999F2331EEE56F000AF1FAC /* IBToViewController.swift */,
 			);
 			path = TheFlips;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 				D913F9531EEE3B990039506E /* ViewController.swift in Sources */,
 				D913F9671EEE45CC0039506E /* AppController.swift in Sources */,
 				D913F96B1EEE49300039506E /* ToViewController.swift in Sources */,
+				D999F2321EEE56B500AF1FAC /* IBFromViewController.swift in Sources */,
 				D913F9631EEE45290039506E /* FTBExtensions.swift in Sources */,
 				D913F96F1EEE49910039506E /* NavStackViewController.swift in Sources */,
 				D999F22C1EEE4FB200AF1FAC /* TabBarRootThreeViewController.swift in Sources */,
@@ -177,7 +187,9 @@
 				D913F9691EEE49210039506E /* FromViewController.swift in Sources */,
 				D913F96D1EEE49810039506E /* NavRootViewController.swift in Sources */,
 				D913F9651EEE45420039506E /* FTBAnimationController.swift in Sources */,
+				D999F2341EEE56F000AF1FAC /* IBToViewController.swift in Sources */,
 				D913F9711EEE4A3A0039506E /* TabBarRootOneViewController.swift in Sources */,
+				D999F22E1EEE565800AF1FAC /* IBAppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
